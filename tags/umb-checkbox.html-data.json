@@ -1,0 +1,70 @@
+{
+    "$schema": "https://raw.githubusercontent.com/microsoft/vscode-html-languageservice/master/docs/customData.schema.json",
+    "version": 1.1,
+    "tags": [
+        {
+            "name": "umb-checkbox",
+            "description": "### Umbraco checkbox \n\n Usage: \n\n ```html \n <umb-checkbox \n    model='{boolean}' \n    value='{string}' \n    name='{string}' \n    text='{string}' \n    [input-id='{string}'] \n    [label-key='{string}'] \n    [server-validation-field='{string}'] \n    [disabled='{boolean}'] \n    [required='{boolean}'] \n    [on-change='{callback}'] \n    [css-class='{string}'] \n    [icon='{string}'] \n    [disable-dirty-check='{boolean}']>\n</umb-checkbox> \n ```",
+            "attributes": [
+                {
+                    "name": "model",
+                    "description": "Set to `true` or `false` to set the checkbox to checked or unchecked. \n\n Type: `boolean`"
+                },
+                {
+                    "name": "value",
+                    "description": "Set the value of the checkbox. \n\n Type: `string`"
+                },
+                {
+                    "name": "name",
+                    "description": "Set the name of the checkbox. \n\n Type: `string`"
+                },
+                {
+                    "name": "text",
+                    "description": "Set the text for the checkbox label. \n\n Type: `string`"
+                },
+                {
+                    "name": "input-id",
+                    "description": "Set the `id` of the checkbox. \n\n Type: `string`"
+                },
+                {
+                    "name": "label-key",
+                    "description": "Set a dictinary/localization string for the checkbox label. \n\n Type: `string`"
+                },
+                {
+                    "name": "server-validation-id",
+                    "description": "Set the `val-server-field` of the checkbox. \n\n Type: `string`"
+                },
+                {
+                    "name": "disabled",
+                    "description": "Set the checkbox to be disabled. \n\n Type: `boolean`"
+                },
+                {
+                    "name": "required",
+                    "description": "Set the checkbox to be required. \n\n Type: `boolean`"
+                },
+                {
+                    "name": "on-change",
+                    "description": "Callback when the value of the checkbox is changed by interaction. \n\n Type: `callback function`"
+                },
+                {
+                    "name": "css-class",
+                    "description": "Set a css class modifier. \n\n Type: `string`"
+                },
+                {
+                    "name": "icon",
+                    "description": "Set an icon next to checkbox. \n\n Type: `string`"
+                },
+                {
+                    "name": "disable-dirty-check",
+                    "description": "Disable checking if the model is dirty. \n\n Type: `boolean`"
+                }
+            ],
+            "references": [
+                {
+                    "name": "Umbraco API Docs V8 > Umbraco checkbox directive `umbCheckbox`",
+                    "url": "https://our.umbraco.com/apidocs/v8/ui/#/api/umbraco.directives.directive:umbCheckbox"
+                }
+            ]
+        }
+    ]
+}
