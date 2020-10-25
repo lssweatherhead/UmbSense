@@ -1,0 +1,68 @@
+{
+    "$schema": "https://raw.githubusercontent.com/microsoft/vscode-html-languageservice/master/docs/customData.schema.json",
+    "version": 1.1,
+    "tags": [
+        {
+            "name": "umb-button-group",
+            "description": "### Umbraco button group \n\n Usage: \n\n ```html \n <umb-button-group \n    default-button='{object}' \n    sub-buttons='{array}' \n    [state='{string}'] \n    [direction='{string}'] \n    [float='{string}']>\n</umb-button-group> \n ```",
+            "attributes": [
+                {
+                    "name": "default-button",
+                    "description": "The model of the default button. \n\n Type: `object`"
+                },
+                {
+                    "name": "sub-buttons",
+                    "description": "Array of sub buttons. \n\n Type: `array`"
+                },
+                {
+                    "name": "state",
+                    "description": "Set a progress state on the button. \n\n Options: `busy`, `error`, `init`, `success` \n\n Type: `string`",
+                    "values": [
+                        {
+                            "name": "busy"
+                        },
+                        {
+                            "name": "error"
+                        },
+                        {
+                            "name": "init"
+                        },
+                        {
+                            "name": "success"
+                        }
+                    ]
+                },
+                {
+                    "name": "direction",
+                    "description": "Set the direction of the dropdown. \n\n Options: `down`, `up` \n\n Type: `string`",
+                    "values": [
+                        {
+                            "name": "down"
+                        },
+                        {
+                            "name": "up"
+                        }
+                    ]
+                },
+                {
+                    "name": "float",
+                    "description": "Set the float of the dropdown. \n\n Options: `left`, `right` \n\n Type: `string`",
+                    "values": [
+                        {
+                            "name": "left"
+                        },
+                        {
+                            "name": "right"
+                        }
+                    ]
+                }
+            ],
+            "references": [
+                {
+                    "name": "Umbraco API Docs V8 > Umbraco button directive `umbButtonGroup`",
+                    "url": "https://our.umbraco.com/apidocs/v8/ui/#/api/umbraco.directives.directive:umbButtonGroup"
+                }
+            ]
+        }
+    ]
+}

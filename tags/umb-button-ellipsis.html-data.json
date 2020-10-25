@@ -4,7 +4,7 @@
     "tags": [
         {
             "name": "umb-button-ellipsis",
-            "description": "### Umbraco button ellipsis \n\n Usage: \n\n ```html \n <umb-button-ellipsis \n    action='{callback}' \n    text='{string}' \n    [label-key='{string}'] \n    [css-class='{string}'] \n    [color='{string}'] \n    [show-text='{boolean}'] \n    [element='{string}'] \n    [state='{string}'] \n    [mode='{string}']>\n</umb-button> \n ```",
+            "description": "### Umbraco button ellipsis \n\n Usage: \n\n ```html \n <umb-button-ellipsis \n    action='{callback}' \n    text='{string}' \n    [label-key='{string}'] \n    [css-class='{string}'] \n    [color='{string}'] \n    [show-text='{boolean}'] \n    [element='{string}'] \n    [state='{string}'] \n    [mode='{string}']>\n</umb-button-ellipsis> \n ```",
             "attributes": [
                 {
                     "name": "action",
