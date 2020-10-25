@@ -15,7 +15,8 @@
                 "./tags/umb-box-content.html-data.json",
                 "./tags/umb-box-header.html-data.json",
                 "./tags/umb-breadcrumbs.html-data.json",
-                "./tags/umb-button.html-data.json"
+                "./tags/umb-button.html-data.json",
+                "./tags/umb-button-ellipsis.html-data.json"
             ]
         }
     }

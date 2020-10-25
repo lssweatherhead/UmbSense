@@ -1,0 +1,62 @@
+{
+    "$schema": "https://raw.githubusercontent.com/microsoft/vscode-html-languageservice/master/docs/customData.schema.json",
+    "version": 1.1,
+    "tags": [
+        {
+            "name": "umb-button-ellipsis",
+            "description": "### Umbraco button ellipsis \n\n Usage: \n\n ```html \n <umb-button-ellipsis \n    action='{callback}' \n    text='{string}' \n    [label-key='{string}'] \n    [css-class='{string}'] \n    [color='{string}'] \n    [show-text='{boolean}'] \n    [element='{string}'] \n    [state='{string}'] \n    [mode='{string}']>\n</umb-button> \n ```",
+            "attributes": [
+                {
+                    "name": "action",
+                    "description": "Callback when the value of the checkbox changes through interaction. \n\n Type: `callback function`"
+                },
+                {
+                    "name": "text",
+                    "description": "Set the text for the checkbox label. \n\n Type: `string`"
+                },
+                {
+                    "name": "label-key",
+                    "description": "Set a dictionary/localization string for the checkbox label. \n\n Type: `string`"
+                },
+                {
+                    "name": "css-class",
+                    "description": "Set a css class modifier. \n\n Type: `string`"
+                },
+                {
+                    "name": "color",
+                    "description": "Set a hex code e.g. `#f5c1bc`. `#000000` by default. \n\n Type: `string`"
+                },
+                {
+                    "name": "show-text",
+                    "description": "Set to `true` to show the text. `false` by default \n\n Type: `boolean`"
+                },
+                {
+                    "name": "element",
+                    "description": "Highlights a DOM element (HTML selector) \n\n Example: `my-div-name` \n\n Type: `string`"
+                },
+                {
+                    "name": "state",
+                    "description": "Set the initial state of the component. To have it hidden use `hidden` \n\n Type: `string`"
+                },
+                {
+                    "name": "mode",
+                    "description": "Set the mode which decides how to style the component. \n\n Options: `small`, `tab` \n\n Type: `string`",
+                    "values": [
+                        {
+                            "name": "small"
+                        },
+                        {
+                            "name": "tab"
+                        }
+                    ]
+                }
+            ],
+            "references": [
+                {
+                    "name": "Umbraco API Docs V8 > Umbraco button directive `umbButtonEllipsis`",
+                    "url": "https://our.umbraco.com/apidocs/v8/ui/#/api/umbraco.directives.directive:umbButtonEllipsis"
+                }
+            ]
+        }
+    ]
+}
